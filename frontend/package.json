@@ -1,0 +1,26 @@
+{
+  "_comment":     "Project manifest for the ScanMe React frontend. Run `npm install` then `npm run dev` (development) or `npm run build` (production).",
+  "name":         "scanme-ui",
+  "private":      true,
+  "version":      "1.0.0",
+  "type":         "module",
+  "scripts": {
+    "dev":     "vite",
+    "build":   "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion":   "^11.0.0",
+    "lucide-react":    "^0.356.0",
+    "react":           "^18.2.0",
+    "react-dom":       "^18.2.0",
+    "react-dropzone":  "^14.2.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer":         "^10.4.17",
+    "postcss":              "^8.4.35",
+    "tailwindcss":          "^3.4.1",
+    "vite":                 "^5.1.4"
+  }
+}

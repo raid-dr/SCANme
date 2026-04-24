@@ -1,0 +1,22 @@
+# ────────────────────────────────────────────────────────────────────────────
+# Python dependencies for the ScanMe backend server and image pipeline.
+# Install all packages by running: pip install -r requirements.txt
+# ────────────────────────────────────────────────────────────────────────────
+
+# Core computer vision library — provides image I/O, filtering, contour detection, etc.
+opencv-python>=4.5.1
+
+# Numerical array library — all images are represented as NumPy arrays.
+numpy>=1.21
+
+# Barcode/QR code decoder — wraps the C library libzbar for payload extraction.
+pyzbar>=0.1.9
+
+# Python Imaging Library — used for some image format handling utilities.
+Pillow>=9.0
+
+# Flask micro web framework — powers the REST API backend.
+flask>=2.3
+
+# Flask CORS plugin — allows the React dev server (port 5173) to call the Flask API (port 5000).
+flask-cors>=4.0
